@@ -1,0 +1,24 @@
+{
+  "name": "async-await-nodejs",
+  "version": "1.0.0",
+  "description": "async-await-nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "async",
+    "await"
+  ],
+  "author": " Devesh Vyas <dev2605vyas@icloud.com> ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validation": "^1.0.2",
+    "joi": "^13.0.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^4.13.0",
+    "winston": "^2.4.0"
+  }
+}

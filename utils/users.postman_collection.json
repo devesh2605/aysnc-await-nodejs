@@ -1,0 +1,134 @@
+{
+	"info": {
+		"name": "users",
+		"_postman_id": "5c19d656-888c-f7a9-fa2f-660cad51c36c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User - Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\":\"Devesh\",\n\t\"lastName\":\"Vyas\",\n\t\"email\":\"dev2605vyas@icloud.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User - Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User - Get by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/user/5a1c4581b5988032f074ad71",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"5a1c4581b5988032f074ad71"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User - Update By Id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\":\"Devesh\",\n\t\"lastName\":\"Vyas\",\n\t\"email\":\"dev2605vyas@icloud.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/5a1c4581b5988032f074ad71",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"5a1c4581b5988032f074ad71"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User - Delete by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/user/5a1c4581b5988032f074ad71",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"5a1c4581b5988032f074ad71"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
